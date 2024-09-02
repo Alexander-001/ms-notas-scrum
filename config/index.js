@@ -12,7 +12,7 @@ class Config {
   }
 
   middlewares() {
-    this.app.use(cors({ origin: "http://localhost:4200" }));
+    this.app.use(cors({ origin: "https://alexander-001.github.io" }));
     this.app.use(express.json());
     this.app.use(express.static("public"));
   }
